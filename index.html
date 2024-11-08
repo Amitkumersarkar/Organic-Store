@@ -28,12 +28,12 @@
                         secondary: 'rgb(17,17,17)',
                         body: 'rgb(248,246,243)',
                         body_neutral: 'rgb(51,51,51)',
-                    },
+                    }
                     fontFamily: {
                         Poppins: 'Poppins',
-                    },
-                },
-            },
+                    }
+                }
+            }
         }
     </script>
 </head>
@@ -41,8 +41,8 @@
 <body class="font-Poppins">
     <!-- header section heading -->
     <header>
-        <nav>
-            <div class="navbar bg-base-100 w-11/12 mx-auto">
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
                 <div class="navbar-start p-0 py-3">
                     <!-- <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -129,6 +129,29 @@
                 </div>
             </div>
         </nav>
+        <section class="flex">
+            <div class="w-full h-full bg-opacity-90 flex items-center sm:flex-row py-28 flex-col">
+                <div class="lg:w-9/12  mx-auto flex-1">
+                    <div>
+                        <img src="./Assets/bannerbg.png" alt="">
+                    </div>
+                </div>
+                <div class="flex-1 pl-5">
+                    <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+                    <h1 class="text-6xl font-semibold">Join The Organic Movement</h1>
+                    <p class="my-5 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Quisquam
+                        dolor commodi cumque
+                        impedit
+                        eum perferendis.</p>
+                    <div class="flex sm:justify-start justify-center">
+                        <button class="btn bg-green-500 hover:bg-violet-400 text-white">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>Shop Now</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 </body>
 
